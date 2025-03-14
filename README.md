@@ -95,33 +95,17 @@
 
 <h1>О нашей игре</h1>
 <p>Это увлекательная компьютерная игра в жанре RPG с открытым миром, где вы сможете исследовать различные локации, выполнять квесты и сражаться с врагами.</p>
-<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" alt="Изображение из игры" class="fade-in">
+<img src="https://images.unsplash.com/photo-1574169208502-2f1e0c2d4a8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" alt="Изображение из игры" class="fade-in">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ID_ВИДЕО" frameborder="0" allowfullscreen></iframe>
-
-<h2>Форма обратной связи</h2>
-<form id="contact-form">
-    <label>Имя: <input type="text" id="name" required></label>
-    <label>Email: <input type="email" id="email" required></label>
-    <label>Сообщение: <textarea id="message" required></textarea></label>
-    <button type="submit">Отправить</button>
-</form>
-<p id="response"></p>
-
-<script>
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        document.getElementById('response').innerText = "Ваше сообщение принято! Скоро мы на него ответим.";
-    });
-</script>
 
 <h2>Галерея изображений</h2>
 <div class="gallery">
-        <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 1">
-    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 2">
-    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 3">
-    <img src="https://images.unsplash.com/photo-1521747116042-5a810fda9664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 4">
-    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 5">
-    <img src="https://images.unsplash.com/photo-1498050108023-c524d0a5683c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 6">
+    <img src="https://images.unsplash.com/photo-1590495190935-5c8a4a0c0d6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 1">
+        <img src="https://images.unsplash.com/photo-1609694038480-5c1e1d0e1e8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 2">
+    <img src="https://images.unsplash.com/photo-1614202211404-4a9e5f5e3b9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 3">
+    <img src="https://images.unsplash.com/photo-1614202211404-4a9e5f5e3b9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 4">
+    <img src="https://images.unsplash.com/photo-1623026267991-fb9b9c2c5c7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 5">
+    <img src="https://images.unsplash.com/photo-1623026267991-fb9b9c2c5c7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 6">
 </div>
 <img id="full-image" class="hidden" alt="Увеличенное изображение">
 
@@ -147,6 +131,22 @@
     <summary>Когда выйдет следующая версия игры?</summary>
     <p>Следующая версия игры запланирована на конец текущего года.</p>
 </details>
+
+<h2>Форма обратной связи</h2>
+<form id="contact-form">
+    <label>Имя: <input type="text" id="name" required></label>
+    <label>Email: <input type="email" id="email" required></label>
+    <label>Сообщение: <textarea id="message" required></textarea></label>
+    <button type="submit">Отправить</button>
+</form>
+<p id="response"></p>
+
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        document.getElementById('response').innerText = "Ваше сообщение принято! Скоро мы на него ответим.";
+    });
+</script>
 
 </body>
 </html>
