@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -95,7 +95,7 @@
 
 <h1>О нашей игре</h1>
 <p>Это увлекательная компьютерная игра в жанре RPG с открытым миром, где вы сможете исследовать различные локации, выполнять квесты и сражаться с врагами.</p>
-<img src="game-image.jpg" alt="Изображение из игры" class="fade-in">
+<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" alt="Изображение из игры" class="fade-in">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ID_ВИДЕО" frameborder="0" allowfullscreen></iframe>
 
 <h2>Форма обратной связи</h2>
@@ -116,12 +116,12 @@
 
 <h2>Галерея изображений</h2>
 <div class="gallery">
-    <img src="img1.jpg" class="thumbnail" alt="Изображение 1">
-    <img src="img2.jpg" class="thumbnail" alt="Изображение 2">
-    <img src="img3.jpg" class="thumbnail" alt="Изображение 3">
-    <img src="img4.jpg" class="thumbnail" alt="Изображение 4">
-    <img src="img5.jpg" class="thumbnail" alt="Изображение 5">
-    <img src="img6.jpg" class="thumbnail" alt="Изображение 6">
+        <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 1">
+    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 2">
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 3">
+    <img src="https://images.unsplash.com/photo-1521747116042-5a810fda9664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 4">
+    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 5">
+    <img src="https://images.unsplash.com/photo-1498050108023-c524d0a5683c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 6">
 </div>
 <img id="full-image" class="hidden" alt="Увеличенное изображение">
 
@@ -148,14 +148,6 @@
     <p>Следующая версия игры запланирована на конец текущего года.</p>
 </details>
 
-<style>
-    #full-image {
-        width: 500px;
-        display: block;
-        margin: 20px auto;
-    }
-    .hidden { display: none; }
-</style>
 </body>
 </html>
 
