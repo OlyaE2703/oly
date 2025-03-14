@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О нашей игре</title>
+    <p>Assassin’s Creed — медиафраншиза компании Ubisoft, основанная на серии компьютерных игр. Первая игра вышла в 2007 году, последняя — Assassin’s Creed Nexus VR вышла 16 ноября 2023. В данный момент, в разработке находится игра Assassin’s Creed Shadows, которая выйдет 20 марта 2025.</p>
     <style>
         body {
             font-family: Arial, sans-serif;
