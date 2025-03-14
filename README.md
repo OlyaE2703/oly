@@ -1,3 +1,4 @@
+![assassins-creed-logo-png-transparent](https://github.com/user-attachments/assets/fd1df0cc-5329-4906-bc47-91a13a51d5d7)
 
 <html lang="ru">
 <head>
