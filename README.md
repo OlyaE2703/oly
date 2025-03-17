@@ -97,8 +97,7 @@
         <img src="images/logo.png" alt="Логотип сайта" class="logo" loading="lazy" id="logo">
         <nav>
             <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="news.html">Новости</a></li>
+                <li><a href="2part.html">О игре</a></li>
             </ul>
         </nav>
     </header>
