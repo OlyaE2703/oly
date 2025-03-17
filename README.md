@@ -157,8 +157,6 @@
                 modal.style.display = 'none';
             }
         }
-
-        // Система комментариев
         const commentForm = document.getElementById('comment-form');
         const commentsList = document.getElementById('comments-list');
 
