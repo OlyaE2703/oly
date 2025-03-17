@@ -102,14 +102,14 @@
 
 <h2>Галерея изображений</h2>
 <div class="gallery">
-    <img src="https://images.unsplash.com/photo-1590495190935-5c8a4a0c0d6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 1">
-        <img src="https://images.unsplash.com/photo-1609694038480-5c1e1d0e1e8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 2">
-    <img src="https://images.unsplash.com/photo-1614202211404-4a9e5f5e3b9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 3">
-    <img src="https://images.unsplash.com/photo-1614202211404-4a9e5f5e3b9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 4">
-    <img src="https://images.unsplash.com/photo-1623026267991-fb9b9c2c5c7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 5">
-    <img src="https://images.unsplash.com/photo-1623026267991-fb9b9c2c5c7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" class="thumbnail" alt="Изображение 6">
-</div>
-<img id="full-image" class="hidden" alt="Увеличенное изображение">
+    <img ![images (1)](https://github.com/user-attachments/assets/c5a3e7e0-7fd9-47db-b65a-b42638b0cbb2)
+1">
+        <img ![Assassins_Creed_Brotherhood_capa](https://github.com/user-attachments/assets/92e52547-7323-45b7-a29c-6417980d5b54)
+ 2">
+    <img ![images](https://github.com/user-attachments/assets/514e6ad0-9c0c-4cf1-84e7-34cfe43354e3)
+ 3">
+    <img ![EDtkdijFRwbmGKk1G9lrDoEF](https://github.com/user-attachments/assets/d06a3cde-f761-4a72-8bf1-5261a86893ea)
+ 4">
 
 <script>
     document.querySelectorAll('.thumbnail').forEach(img => {
