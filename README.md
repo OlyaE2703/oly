@@ -96,7 +96,6 @@
         <button id="toggle-theme">Переключить тему</button>
         <h1>Добро пожаловать на наш сайт!</h1>
     </main>
-
     <div id="modal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
@@ -131,11 +130,9 @@
         const logo = document.getElementById('logo');
                 const modal = document.getElementById('modal');
         const closeModal = document.getElementsByClassName('close')[0];
-
         logo.addEventListener('click', () => {
             modal.style.display = 'block';
         });
-
         closeModal.onclick = function() {
             modal.style.display = 'none';
         }
