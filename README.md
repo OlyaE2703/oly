@@ -1,11 +1,9 @@
-![assassins-creed-logo-png-transparent](https://github.com/user-attachments/assets/fd1df0cc-5329-4906-bc47-91a13a51d5d7)
-
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О нашей игре</title>
-    <p>Assassin’s Creed — медиафраншиза компании Ubisoft, основанная на серии компьютерных игр. Первая игра вышла в 2007 году, последняя — Assassin’s Creed Nexus VR вышла 16 ноября 2023. В данный момент, в разработке находится игра Assassin’s Creed Shadows, которая выйдет 20 марта 2025.</p>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -96,17 +94,21 @@
 </div>
 
 <h1>О нашей игре</h1>
-<p>Это увлекательная компьютерная игра в жанре RPG с открытым миром, где вы сможете исследовать различные локации, выполнять квесты и сражаться с врагами.</p>
+<p>Assassin’s Creed — медиафраншиза компании Ubisoft, основанная на серии компьютерных игр. Первая игра вышла в 2007 году, последняя — Assassin’s Creed Nexus VR вышла 16 ноября 2023. В данный момент, в разработке находится игра Assassin’s Creed Shadows, которая выйдет 20 марта 2025.</p>
 
-Uploading VID_20250314_123452_399.mp4…
-
-</iframe>
+<!-- Вставка видео -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ID_ВИДЕО" frameborder="0" allowfullscreen></iframe>
 
 <h2>Галерея изображений</h2>
-![EDtkdijFRwbmGKk1G9lrDoEF](https://github.com/user-attachments/assets/305c41dd-2505-431f-8c63-810aed4cab35)
-![images](https://github.com/user-attachments/assets/78570628-e1f5-4475-8d1b-cab613a06170)
-![Assassins_Creed_Brotherhood_capa](https://github.com/user-attachments/assets/8e513b18-c1d5-4f69-9451-d33f2d50d0fb)
-![images (1)](https://github.com/user-attachments/assets/e09c7f7a-5378-4210-9c0f-e0319dbde8b7)
+<div class="gallery">
+    <img src="https://github.com/user-attachments/assets/fd1df0cc-5329-4906-bc47-91a13a51d5d7" class="thumbnail" alt="Логотип Assassin's Creed">
+    <img src="https://github.com/user-attachments/assets/305c41dd-2505-431f-8c63-810aed4cab35" class="thumbnail" alt="Изображение 1">
+    <img src="https://github.com/user-attachments/assets/78570628-e1f5-4475-8d1b-cab613a06170" class="thumbnail" alt="Изображение 2">
+    <img src="https://github.com/user-attachments/assets/8e513b18-c1d5-4f69-9451-d33f2d50d0fb" class="thumbnail" alt="Изображение 3">
+    <img src="https://github.com/user-attachments/assets/e09c7f7a-5378-4210-9c0f-e0319dbde8b7" class="thumbnail" alt="Изображение 4">
+</div>
+
+<img id="full-image" class="hidden" alt="Увеличенное изображение">
 
 <script>
     document.querySelectorAll('.thumbnail').forEach(img => {
@@ -146,7 +148,7 @@ Uploading VID_20250314_123452_399.mp4…
         document.getElementById('response').innerText = "Ваше сообщение принято! Скоро мы на него ответим.";
     });
 </script>
-
 </body>
 </html>
 
+    
