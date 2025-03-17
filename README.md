@@ -88,13 +88,12 @@
         <img src="images/logo.png" alt="Логотип сайта" class="logo" loading="lazy" id="logo">
         <nav>
             <ul>
+                 <button id="toggle-theme">Переключить тему</button>
                 <li><a href="2part.html">О игре</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <button id="toggle-theme">Переключить тему</button>
-        <h1>Добро пожаловать на наш сайт!</h1>
+    <main>        <h1>Добро пожаловать на наш сайт!</h1>
     </main>
     <div id="modal" class="modal">
         <div class="modal-content">
@@ -143,7 +142,6 @@
         }
         const commentForm = document.getElementById('comment-form');
         const commentsList = document.getElementById('comments-list');
-
         if (commentForm) {
             commentForm.addEventListener('submit', function(event) {
                 event.preventDefault();
