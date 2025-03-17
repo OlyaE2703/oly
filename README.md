@@ -85,7 +85,7 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Логотип сайта" class="logo" loading="lazy" id="logo">
+        <img src="7huhhhhhhhhhhhhhhhhhhhhhhhhhhhh.jpg" alt="Логотип сайта" class="logo" loading="lazy" id="logo">
         <nav>
             <ul>
                  <button id="toggle-theme">Переключить тему</button>
