@@ -97,15 +97,16 @@
 
 <h1>О нашей игре</h1>
 <p>Это увлекательная компьютерная игра в жанре RPG с открытым миром, где вы сможете исследовать различные локации, выполнять квесты и сражаться с врагами.</p>
-<img src="https://images.unsplash.com/photo-1574169208502-2f1e0c2d4a8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=800" alt="Изображение из игры" class="fade-in">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ID_ВИДЕО" frameborder="0" allowfullscreen></iframe>
+
+Uploading VID_20250314_123452_399.mp4…
+
+</iframe>
 
 <h2>Галерея изображений</h2>
-<div class="gallery">
-    ![images (1)](https://github.com/user-attachments/assets/c5a3e7e0-7fd9-47db-b65a-b42638b0cbb2)
-![Assassins_Creed_Brotherhood_capa](https://github.com/user-attachments/assets/92e52547-7323-45b7-a29c-6417980d5b54)
-![images](https://github.com/user-attachments/assets/514e6ad0-9c0c-4cf1-84e7-34cfe43354e3)
-![EDtkdijFRwbmGKk1G9lrDoEF](https://github.com/user-attachments/assets/d06a3cde-f761-4a72-8bf1-5261a86893ea)
+![EDtkdijFRwbmGKk1G9lrDoEF](https://github.com/user-attachments/assets/305c41dd-2505-431f-8c63-810aed4cab35)
+![images](https://github.com/user-attachments/assets/78570628-e1f5-4475-8d1b-cab613a06170)
+![Assassins_Creed_Brotherhood_capa](https://github.com/user-attachments/assets/8e513b18-c1d5-4f69-9451-d33f2d50d0fb)
+![images (1)](https://github.com/user-attachments/assets/e09c7f7a-5378-4210-9c0f-e0319dbde8b7)
 
 <script>
     document.querySelectorAll('.thumbnail').forEach(img => {
