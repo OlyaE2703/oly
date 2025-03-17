@@ -89,6 +89,7 @@
         <nav>
             <ul>
                  <button id="toggle-theme">Переключить тему</button>
+                <p>--------------------------------------------------</p>
                 <li><a href="2part.html">О игре</a></li>
             </ul>
         </nav>
