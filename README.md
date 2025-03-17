@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -81,6 +81,15 @@
             text-decoration: none;
             cursor: pointer;
         }
+        .comments {
+            margin-top: 20px;
+        }
+        #comments-list p {
+            margin: 5px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -88,13 +97,14 @@
         <img src="7huhhhhhhhhhhhhhhhhhhhhhhhhhhhh.jpg" alt="Логотип сайта" class="logo" loading="lazy" id="logo">
         <nav>
             <ul>
-                 <button id="toggle-theme">Переключить тему</button>
+                <button id="toggle-theme">Переключить тему</button>
                 <p>___________________________________________________</p>
                 <li><a href="2part.html">О игре</a></li>
             </ul>
         </nav>
     </header>
-    <main>        <h1>Добро пожаловать на наш сайт!</h1>
+    <main>
+        <h1>Добро пожаловать на наш сайт!</h1>
     </main>
     <div id="modal" class="modal">
         <div class="modal-content">
@@ -123,12 +133,12 @@
     <script>
         // Переключение темного и светлого режима
         const toggleButton = document.getElementById('toggle-theme');
-        toggleButton.addEventListener('click', () => {
+                toggleButton.addEventListener('click', () => {
             document.body.classList.toggle('dark-theme');
         });
         // Модальное окно при клике на логотип
         const logo = document.getElementById('logo');
-                const modal = document.getElementById('modal');
+        const modal = document.getElementById('modal');
         const closeModal = document.getElementsByClassName('close')[0];
         logo.addEventListener('click', () => {
             modal.style.display = 'block';
@@ -141,19 +151,21 @@
                 modal.style.display = 'none';
             }
         }
+        // Обработка комментариев
         const commentForm = document.getElementById('comment-form');
         const commentsList = document.getElementById('comments-list');
         if (commentForm) {
             commentForm.addEventListener('submit', function(event) {
-                event.preventDefault();
-                const commentText = document.getElementById('comment').value;
-                const newComment = document.createElement('p');
-                newComment.textContent = commentText;
-                commentsList.appendChild(newComment);
-                commentForm.reset();
+                event.preventDefault(); // Предотвращаем перезагрузку страницы
+                const commentText = document.getElementById('comment').value; // Получаем текст комментария
+                const newComment = document.createElement('p'); // Создаем новый элемент для комментария
+                newComment.textContent = commentText; // Добавляем текст комментария
+                commentsList.appendChild(newComment); // Добавляем комментарий в список
+                commentForm.reset(); // Очищаем форму
             });
         }
     </script>
 </body>
 </html>
 
+       
