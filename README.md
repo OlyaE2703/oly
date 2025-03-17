@@ -102,14 +102,10 @@
 
 <h2>Галерея изображений</h2>
 <div class="gallery">
-    <img ![images (1)](https://github.com/user-attachments/assets/c5a3e7e0-7fd9-47db-b65a-b42638b0cbb2)
-1">
-        <img ![Assassins_Creed_Brotherhood_capa](https://github.com/user-attachments/assets/92e52547-7323-45b7-a29c-6417980d5b54)
- 2">
-    <img ![images](https://github.com/user-attachments/assets/514e6ad0-9c0c-4cf1-84e7-34cfe43354e3)
- 3">
-    <img ![EDtkdijFRwbmGKk1G9lrDoEF](https://github.com/user-attachments/assets/d06a3cde-f761-4a72-8bf1-5261a86893ea)
- 4">
+    ![images (1)](https://github.com/user-attachments/assets/c5a3e7e0-7fd9-47db-b65a-b42638b0cbb2)
+![Assassins_Creed_Brotherhood_capa](https://github.com/user-attachments/assets/92e52547-7323-45b7-a29c-6417980d5b54)
+![images](https://github.com/user-attachments/assets/514e6ad0-9c0c-4cf1-84e7-34cfe43354e3)
+![EDtkdijFRwbmGKk1G9lrDoEF](https://github.com/user-attachments/assets/d06a3cde-f761-4a72-8bf1-5261a86893ea)
 
 <script>
     document.querySelectorAll('.thumbnail').forEach(img => {
